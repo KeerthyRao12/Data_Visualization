@@ -1,0 +1,14 @@
+For database we followed as below
+
+create database ssd_project;
+use ssd_project;
+
+CREATE TABLE PRICES_COMMODTIES(State varchar(30),District varchar(35),Market varchar(35),Commodity varchar(40),Variety varchar(30),
+Grade varchar(10),Arrival_Date date,Min_Price int,Max_Price int,Modal_Price int);
+
+
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost';
+FLUSH PRIVILEGES;
+
+The .csv uploaded has been imported to PRICES_COMMODITIES table and worked on that
