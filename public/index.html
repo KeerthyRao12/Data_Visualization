@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commodity Prices Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Commodity Price Trends</h1>
+    <label for="commoditySelect">Choose a commodity:</label>
+    <select id="commoditySelect">
+        <option value="Onion">Onion</option>
+        <option value="Potato">Potato</option>
+        <option value="Tomato">Tomato</option>
+        <option value="Rice">Rice</option>
+    </select>
+    <h2>Commodity Prices by State</h2>
+    <canvas id="myChart" width="400" height="200"></canvas>
+    
+    <h2>Market Volatility for Commodity</h2>
+    <canvas id="volatilityChart" width="400" height="200"></canvas>
+
+    <script src="chart/chart.js"></script> 
+</body>
+</html>
