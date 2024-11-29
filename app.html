@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization App</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Set the same width and height for all images */
+        .card-img-top {
+            width: 100%;
+            height: 250px;
+            object-fit: cover; /* Ensures the image covers the area without distortion */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Data Visualization App</h1>
+        <p class="text-center mb-5">Select dataset to explore detailed visualizations</p>
+
+        <!-- Dataset 1 -->
+        <div class="card mb-4">
+            <img src="./images/commodity.jpg" style="height: 350px;" class="card-img-top" alt="Dataset 1">
+            <div class="card-body">
+                <h5 class="card-title">Commodity Dataset</h5>
+                <p class="card-text">This dataset contains different commodity prices across India on daily basis reflects how prices will change including the frequent amounts its draws insights into wholesale prices  of variety commodities on daily basis</p>
+                <a href="./commodity/commodity.php" class="btn btn-primary">Visualise data</a>
+            </div>
+        </div>
+
+        <!-- Dataset 2 -->
+        <div class="card mb-4">
+            <img src="./images/general_elections.jpg" style="height: 350px;" class="card-img-top" alt="Dataset 2">
+            <div class="card-body">
+                <h5 class="card-title">General Elections</h5>
+                <p class="card-text">This dataset examines the results of the 2024 Indian Parliamentary elections, with a constituency-wise breakdown for each state.</p>
+                <a href="./election/election/election.php" class="btn btn-primary">Visualise data</a>
+            </div>
+        </div>
+
+        <!-- Dataset 3 -->
+        <div class="card mb-4">
+            <img src="./images/remote_Work.jpg" style="height: 350px;" class="card-img-top" alt="Dataset 3">
+            <div class="card-body">
+                <h5 class="card-title">Remote Work & Mental Health</h5>
+                <p class="card-text">This dataset, comprising 5,000 records of employees from around the globe, provides valuable insights into key factors such as work arrangements (remote, hybrid, onsite), stress levels, access to mental health resources, and overall job satisfaction.
+                </p>
+                <a href="./remotework/remotework.php" class="btn btn-primary">Visualise data</a>
+            </div>
+        </div>
+
+        <!-- Dataset 4 -->
+        <div class="card mb-4">
+            <img src="./images/air_quality.jpg" style="height: 350px;" class="card-img-top" alt="Dataset 4">
+            <div class="card-body">
+                <h5 class="card-title">Air Quality</h5>
+                <p class="card-text">This dataset contains ranked air quality measurements for various cities in the world, providing insights into pollution levels across different months of the year. Each entry includes the city name, its rank based on average pollution levels, and monthly average pollution measurements from January to December.</p>
+                <a href="./airquality/air_quality.php" class="btn btn-primary">Visualise data</a>
+            </div>
+        </div>
+
+        <!-- Dataset 5 -->
+        <div class="card mb-4">
+            <img src="./images/student.jpg" style="height: 350px;" class="card-img-top" alt="Dataset 5">
+            <div class="card-body">
+                <h5 class="card-title">Student Data</h5>
+                <p class="card-text">The student performance factor is a concept used to assess and quantify various factors that influence a student's academic performance. These factors can range from personal characteristics, study habits, and socio-economic background to environmental influences, emotional health, and extracurricular involvement. In educational research and data analysis, understanding the performance factor is crucial for identifying patterns, providing tailored support, and implementing strategies to enhance student outcomes.</p>
+                <a href="./studentdata/student.php" class="btn btn-primary">Visualise data</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
